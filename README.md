@@ -1,6 +1,7 @@
 # OpenVDP
 ## Open Source Vulnerability Disclosure Program
 <img src="https://user-images.githubusercontent.com/68412398/139376726-ce8ebf17-3cd4-4e40-b70d-f9fb032e4945.png" width="250" height="250">
+
 ##### Created by Akshat Parikh
 ## What is this web application?
 OpenVDP is a full stack web application that provides organizations with an easy way to recieve security advice. It is a bug tracking/reporting application for organizations and security researchers. This software was created due to a common problem I witnessed in the field during research. Many organizations did not have a platform where security researchers could report their findings to them, effectively rendering their issues unsolved and research useless. Hence, I created this application to provide easy access to create VDP or bug bounty programs for any organization.
