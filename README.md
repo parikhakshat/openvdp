@@ -1,6 +1,6 @@
 # OpenVDP
-Open Source Vulnerability Disclosure Program
-![logo](https://user-images.githubusercontent.com/68412398/139376726-ce8ebf17-3cd4-4e40-b70d-f9fb032e4945.png)
+##Open Source Vulnerability Disclosure Program
+![logo](https://user-images.githubusercontent.com/68412398/139376726-ce8ebf17-3cd4-4e40-b70d-f9fb032e4945.png =250x250))
 ##### Created by Akshat Parikh
 ***
 ## What is this web application?
@@ -23,12 +23,13 @@ $database = "ENTER_YOUR_DB_NAME";
 ```
 Replace the strings in the quotes with your respective information.
 I will eventually develop a bash script to install everything and setup the database server completely. 
-##Screenshots
-###Mainpage
+
+## Screenshots
+### Mainpage
 ![index](https://user-images.githubusercontent.com/68412398/139379893-07c491e8-8e9a-4afe-8cd0-87de6119f777.PNG)
-###Settings
+### Settings
 ![settings](https://user-images.githubusercontent.com/68412398/139379943-0c4a6b12-b57a-497c-b747-6e72155fe28f.png)
-###Reports
+### Reports
 ![reports php](https://user-images.githubusercontent.com/68412398/139379972-afe18f92-f480-4fa8-8551-fc4689e992fc.PNG)
 ## Planned Features (in order of progress)
 1. Automatic Installation Script
