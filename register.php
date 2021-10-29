@@ -108,7 +108,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
                     {
                         $role = 1;
                     }
-                    $query = "INSERT INTO users (name, email, password, id, role) VALUES('$name', '$email','$password','$id',$role)";
+                    $query = "INSERT INTO users (name, email, password, id, role, color) VALUES('$name', '$email','$password','$id',$role,'#FFFFFF')";
                     $results = $conn->query($query);
                     session_start();
                     $_SESSION["session"] = uniqid();

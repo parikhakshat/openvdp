@@ -54,7 +54,9 @@ if (isset($_SESSION["id"]) && !empty($_SESSION["id"]))
                     $Parsedown = new Parsedown();
                     $Parsedown->setMarkupEscaped(true);
                     $Parsedown->setSafeMode(true);
+                    //$purifier = new HTMLPurifier();
                     $content = mysqli_real_escape_string($conn, $Parsedown->text($_POST['content']));
+                    //$content = $purifier->purify($markdown);
                     $query = "UPDATE reports SET content = \"$content\" WHERE id = \"{$_SESSION["id"]}\"";
                     $results = $conn->query($query);
                     $query = "UPDATE reports SET enableContent = false WHERE id = \"{$_SESSION["id"]}\"";
