@@ -1,6 +1,6 @@
 # OpenVDP
 ##Open Source Vulnerability Disclosure Program
-![logo](https://user-images.githubusercontent.com/68412398/139376726-ce8ebf17-3cd4-4e40-b70d-f9fb032e4945.png =250x250))
+![logo](https://user-images.githubusercontent.com/68412398/139376726-ce8ebf17-3cd4-4e40-b70d-f9fb032e4945.png =250x250)
 ##### Created by Akshat Parikh
 ***
 ## What is this web application?
